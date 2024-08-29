@@ -5,7 +5,10 @@ require('dotenv').config();
 const app = express();
 const port = 3000;
 
-const API_KEY = process.env.API_KEY;
+
+
+const API_KEY = "d38c2c84d1ed8f300490429455e994fc"
+
 
 // Define a route for the root path of the application
 app.get('/', (req, res) => {
